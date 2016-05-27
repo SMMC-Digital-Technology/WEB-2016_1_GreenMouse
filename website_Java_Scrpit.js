@@ -1,4 +1,4 @@
-var income = 67380;
+var income = 0;
 
 if (income <= 16000){
   var taxAmount = 0;
