@@ -4,7 +4,7 @@ function caculateTax() {
     var taxOutput = document.getElementById("taxOutput");
     var T = incomeInput.value;
     
-    if (I <= 16000){
+    if (I <= 16000) {
         T = 0;
         tax.innerHTML = "$" + T;
     } else if (I <= 52500) {

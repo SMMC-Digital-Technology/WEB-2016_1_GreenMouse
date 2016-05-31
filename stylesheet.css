@@ -1,6 +1,5 @@
 Html {
-    background-color: aqua;
-    background-image:url();
+    background-image:url(images/backgrounds/background.png);
     text-align: center;
     width: auto;
     height: auto;
