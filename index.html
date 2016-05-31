@@ -16,29 +16,22 @@
     <body>
   
         <br>
-        <script data-brackets-id='11' src="javaScript.js"></script>
+        <script data-brackets-id='11' src="website_Java_Scrpit.js"></script>
         <lable>Money Earned:</lable><br>
         <div id="G"> 
-        <input type="number" id="TaxAmmount" onInput="guessMade()" step="1" min="0" /><br></div>
+            <input type="number" id="incomeInput" step="1" min="0" onInput = "caculateTax()"/>
+            <br>
+        </div>
         <br>
-        <input type="submit" value="Submit"><br>
+        <input type="button" value="Submit" onclick=""/>
+        <br>
        
         
         <br>
         <br>
         
-        <H3>Tax Needed:</H3> 
-        
-        <br>
-        <br>
-        <div id="K">
-        
-        <input type="text" maxlength="26">
-        
-            <br>
-            <br>
-            
-        </div>
+        <H3>Tax Needed:</H3>
+        <p id="tax"></p>
         
     </body>
     
