@@ -1,5 +1,7 @@
 Html {
     background-image:url(images/backgrounds/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     width: auto;
     height: auto;
@@ -33,10 +35,12 @@ head {
     background-color:;
     text-decoration-color: aqua;
     border: none;
-
-    
-    
 }
+
+ table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
 
 #k input{
     
