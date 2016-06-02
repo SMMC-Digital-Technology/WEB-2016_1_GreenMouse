@@ -1,60 +1,91 @@
+/*
+* used to set the background and how it covers the page with out repeating, also aligns the text to the center, and sets font. Makes it so that the browser can be shrunk and the content will shrink too
+*/
 Html {
-    background-image:url(images/backgrounds/background.png); //**adds the background from the file.**//
-    background-repeat: no-repeat; //**makes the background not repeat it self.**//
-    background-size: cover;//**makes the background cover the whole screen**//
-    text-align: center;//**set the text to the center**//
-    width: auto; //**sets the width of the whole website so that it fits on any size browser**//
-    height: auto;//**sets the height of the whole website so that it fits on any size browser**//
-    font-family: 'PT Sans', sans-serif;//**sets the font for the website**//
+    background-image:url(images/backgrounds/background.png); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    text-align: center;
+    width: auto; 
+    height: auto;
+    font-family: 'PT Sans', sans-serif;
 }
 
+/*
+* makes the bodys text aline to the center, also sets the font. Makes it so that the browser can e shrunk and the content will shrink too
+*/
 body{
-    text-align: center;//**set the text to the center**//
-    width: auto;//**sets the width of the whole website so that it fits on any size browser**//
-    height: auto;//**sets the height of the whole website so that it fits on any size browser**//
-    font-family: 'PT Sans', sans-serif;//**sets the font for the website**//
-}
-#table {
-    text-align: center;//**set the text to the center**//
-    width: auto;//**sets the width of the whole website so that it fits on any size browser**//
-    height: auto;//**sets the height of the whole website so that it fits on any size browser**//
-    font-family: 'PT Sans', sans-serif;//**sets the font for the website**//
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-family: 'PT Sans', sans-serif;
 }
 
+/*
+* makes the table centered on the browser. Makes it so that the browser can e shrunk and the content will shrink too
+*/
+#table {
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*
+*footer not used
+*/
 footer{
     
     
 }
 
+/*
+*head not used
+*/
 head {
     
     
 }
 
+/*
+*sets the decoration color
+*/
 #G input{
-    text-decoration-color: aqua;//**sets the color of the texts decoration**//
-    border: none;//**stats that there is no border for the div G**//
+    text-decoration-color: aqua;
+    border: none;
 }
 
+/*
+*set the table to the center on the browser
+*/
  table.center {
-    margin-left:auto; //**one part that helps to set the tabble to the center of the screen**//
-    margin-right:auto;//**one part that helps to set the tabble to the center of the screen**//
+    margin-left:auto; 
+    margin-right:auto;
   }
 
+/*
+*stats that there is no border for the div k
+*/
 #k input{
-    
-    border: none;//**stats that there is no border for the div k**//
+    border: none;
 }
 
+/*
+*Set the input so that its in the center of the screen
+*/
 input {
-    width:auto;//**makes shore that the input is centered horizontally**//
-    height:auto;//**makes shore that the input is centered verticality**//
+    width:auto;
+    height:auto;
     
     
 }
+
+/*
+*makes the graph readable and so it is in the center of the browser
+*/
 #graph {
-    width: 800px;//**sets the graphs width so that it can be easily seen**//
-    height: 600px;//**sets the graphs height so that it can be easiy seen**//
-    margin-left: auto;//**makes it so that the graph is centered**//
-    margin-right: auto;//**makes it so that the graph is centered**//
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
