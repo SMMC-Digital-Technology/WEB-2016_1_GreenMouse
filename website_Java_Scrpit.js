@@ -1,3 +1,6 @@
+/*
+*this script is to caculate the tax off the income. the funtion is activated when the submit button is pressed. It will then create the varables I whitch is the income, and T which is the income but is used for the subtracting of the total to get the % over the number. Then will show this in the innerHTML of the tax parragraph.
+*/
 function caculateTax() {
     var incomeInput = document.getElementById("incomeInput");
     var I = incomeInput.value;
