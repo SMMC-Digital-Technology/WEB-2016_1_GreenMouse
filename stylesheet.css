@@ -7,8 +7,16 @@ Html {
 }
 
 body{
-    
-    
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-family: 'PT Sans', sans-serif;    
+}
+#table {
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-family: 'PT Sans', sans-serif;
 }
 
 footer{

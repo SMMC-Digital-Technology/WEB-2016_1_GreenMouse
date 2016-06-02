@@ -1,4 +1,3 @@
-function activateGraph() {
     function simpleInterest(principle, rate, time) {
     return principle * rate * time;
     }
@@ -13,8 +12,8 @@ function activateGraph() {
 
         /* Trace is an object that stores the x and y values. The x, y and type variables are required mandatory. */
         trace = {
-            x: [0, 16000, 52500, 113000, 184500, 250000], // x values
-            y: [0, 1, 2, 3, 4, 5], // y values
+            x: [0, 16000, 34250, 52500, 82750, 113000, 148750, 184500, 217250, 250000], // x values
+            y: [0, 0, 1825, 3650, 8490, 13330, 21910, 30490, 42280, 54070], // y values
             type: 'scatter', // the type of graph
             mode: 'lines+markers', // how the data should be displayed
             name: "trace" // a name for the data to appear on the legend (if present)
@@ -43,4 +42,3 @@ function activateGraph() {
 
     // Run the function to draw the graph.
     drawGraph();
-}
