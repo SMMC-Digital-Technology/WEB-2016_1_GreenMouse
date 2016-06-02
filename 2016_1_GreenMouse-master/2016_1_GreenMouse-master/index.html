@@ -1,0 +1,119 @@
+<html>
+<header>
+    
+    <link href="stylesheet.css" rel="stylesheet"/>
+    <meta charset="utf-8" />
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <title>Zabatuti Tax Calculator</title>
+    
+    </header>
+    <head>
+    
+      <h1>Zabatuti Tax Scheme Calculator</h1>
+    
+    </head>
+
+    <body>
+  
+        <br>
+        <script data-brackets-id='11' src="website_Java_Scrpit.js"></script>
+        <lable>Money Earned:</lable><br>
+        <div id="G"> 
+            <input type="number" id="incomeInput" step="1" min="0"/>
+            <br>
+        </div>
+        <br>
+        <input type="button" value="Submit" onclick="caculateTax()"/>
+        <br>
+       
+        
+        <br>
+        <br>
+        
+        <H3>Tax Amount:</H3>
+        <p id="tax">
+            $0
+        </p>
+        <br>
+        <br>
+        <h4>
+            Tax Algorithm.
+        </h4>
+        <br>
+     
+        <table class="tcenter">
+            <tr>
+                <td>
+                    Income Range
+                </td>
+                <td>
+                    Tax Amount
+                </td>
+            </tr>   
+            <tr>
+                <td>
+                    $0 to $16000
+                </td>
+                <td>
+                    $0
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    $16000 to $52500
+                </td>
+                <td>
+                    10% of every dollar over $16000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    $52500 to $113000
+                </td>
+                <td>
+                    $3650 plus 16% of every dollar over $52500
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    $113000 to $184500
+                </td>
+                <td>
+                    $13330 plus 24% of every dollar over $113000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Higher than $184500
+                </td>
+                <td>
+                    $30490 plus 36% of every dollar over $184500
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <div id="graph" class="cg">
+            <script src="plotly.js"></script>
+            <script src="Graph.js"></script>
+        </div>
+    
+    </body>
+    
+    <footer>
+         <br> 
+         <br> 
+    175 Kieot lane Zabututi, 8348
+
+        
+        <br>
+        <br>
+        
+        
+&copy; Zabatuti Government
+    
+    
+    </footer>
+    
+    
+</html>

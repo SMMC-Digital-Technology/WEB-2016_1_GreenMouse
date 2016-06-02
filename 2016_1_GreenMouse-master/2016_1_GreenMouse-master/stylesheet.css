@@ -1,0 +1,68 @@
+Html {
+    background-image:url(images/backgrounds/final%20background.png); //**adds the background from the file.**//
+    background-repeat: no-repeat; //**makes the background not repeat it self.**//
+    background-size: cover;//**makes the background cover the whole screen**//
+    text-align: center;//**set the text to the center**//
+    width: auto; //**sets the width of the whole website so that it fits on any size browser**//
+    height: auto;//**sets the height of the whole website so that it fits on any size browser**//
+    font-family: 'PT Sans', sans-serif;//**sets the font for the website**//
+}
+
+body{
+    text-align: center;//**set the text to the center**//
+    width: auto;//**sets the width of the whole website so that it fits on any size browser**//
+    height: auto;//**sets the height of the whole website so that it fits on any size browser**//
+    font-family: 'PT Sans', sans-serif;//**sets the font for the website**//
+    align-content: center;//**Aligns the content to the Center of the screen**//
+}
+
+#table {
+    text-align: center;//**set the text to the center**//
+    width: auto;//**sets the width of the whole website so that it fits on any size browser**//
+    height: auto;//**sets the height of the whole website so that it fits on any size browser**//
+    font-family: 'PT Sans', sans-serif;//**sets the font for the website**//
+}
+
+table.tcenter {
+    width:70%;  
+    margin-left:15%; 
+    margin-right:15%; 
+  }
+.cg{
+    width: 70%;
+    margin-left: 25%;
+    margin-right: 15%;
+}
+
+table, th, td {
+    border: solid black 1px;
+}
+
+#G input{
+    text-decoration-color: aqua;//**sets the color of the texts decoration**//
+    border: none;//**stats that there is no border for the div G**//
+}
+
+ table.center {
+    margin-left:auto; //**one part that helps to set the tabble to the center of the screen**//
+    margin-right:auto;//**one part that helps to set the tabble to the center of the screen**//
+ 
+  }
+
+#k input{
+    
+    border: none;//**stats that there is no border for the div k**//
+}
+
+input {
+    width:auto;//**makes shore that the input is centered horizontally**//
+    height:auto;//**makes shore that the input is centered verticality**//
+    
+    
+}
+#graph {
+    width: 800px;//**sets the graphs width so that it can be easily seen**//
+    height: 600px;//**sets the graphs height so that it can be easiy seen**//
+    margin-left: auto;//**makes it so that the graph is centered**//
+    margin-right: auto;//**makes it so that the graph is centered**/
+}
